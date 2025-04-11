@@ -1,0 +1,54 @@
+ $ sudo perf stat -p 15765 sleep 10 # threadlocal
+
+ Performance counter stats for process id '15765':
+
+         51,004.24 msec task-clock                #    5.099 CPUs utilized
+             9,150      context-switches          #  179.397 /sec
+               966      cpu-migrations            #   18.940 /sec
+               380      page-faults               #    7.450 /sec
+   194,182,749,116      cycles                    #    3.807 GHz                      (83.27%)
+       658,503,268      stalled-cycles-frontend   #    0.34% frontend cycles idle     (83.29%)
+   136,544,805,916      stalled-cycles-backend    #   70.32% backend cycles idle      (83.34%)
+   299,254,086,622      instructions              #    1.54  insn per cycle
+                                                  #    0.46  stalled cycles per insn  (83.40%)
+    50,342,159,212      branches                  #  987.019 M/sec                    (83.43%)
+         4,454,962      branch-misses             #    0.01% of all branches          (83.28%)
+
+      10.002699964 seconds time elapsed
+ $ sudo perf stat -p 15406 sleep 10 # synchronized
+
+ Performance counter stats for process id '15406':
+
+         37,408.91 msec task-clock                #    3.740 CPUs utilized
+           728,849      context-switches          #   19.483 K/sec
+            80,871      cpu-migrations            #    2.162 K/sec
+               373      page-faults               #    9.971 /sec
+    86,468,995,243      cycles                    #    2.311 GHz                      (83.30%)
+    21,918,852,466      stalled-cycles-frontend   #   25.35% frontend cycles idle     (83.09%)
+    23,879,391,831      stalled-cycles-backend    #   27.62% backend cycles idle      (83.34%)
+    34,063,346,724      instructions              #    0.39  insn per cycle
+                                                  #    0.70  stalled cycles per insn  (83.39%)
+     8,319,062,659      branches                  #  222.382 M/sec                    (83.87%)
+       173,304,738      branch-misses             #    2.08% of all branches          (83.01%)
+
+      10.001903949 seconds time elapsed
+
+ $ sudo perf stat -p 16055 sleep 10 # cas
+
+ Performance counter stats for process id '16055':
+
+         99,986.07 msec task-clock                #    9.997 CPUs utilized
+            10,376      context-switches          #  103.774 /sec
+             2,233      cpu-migrations            #   22.333 /sec
+               535      page-faults               #    5.351 /sec
+   392,306,439,752      cycles                    #    3.924 GHz                      (83.33%)
+        85,108,313      stalled-cycles-frontend   #    0.02% frontend cycles idle     (83.32%)
+   226,122,330,948      stalled-cycles-backend    #   57.64% backend cycles idle      (83.33%)
+     6,230,338,824      instructions              #    0.02  insn per cycle
+                                                  #   36.29  stalled cycles per insn  (83.33%)
+     1,353,833,523      branches                  #   13.540 M/sec                    (83.37%)
+         4,747,879      branch-misses             #    0.35% of all branches          (83.33%)
+
+      10.001614277 seconds time elapsed
+
+[Comparison set was too fast to measure context switch overhead]

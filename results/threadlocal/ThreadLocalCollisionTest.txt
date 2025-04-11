@@ -1,0 +1,13 @@
+Starting ThreadLocal Hash Collision Test
+Number of threads: 8
+Number of ThreadLocal instances per case: 100
+Operations per thread: 5000000
+
+===== Testing Hash Collision Case =====
+Collision case execution time: 21482 ms
+Non-collision case execution time: 11616 ms
+
+===== Result Comparison =====
+Hash collision case execution time: 21482 ms
+No hash collision case execution time: 11616 ms
+Difference ratio: 84.93%

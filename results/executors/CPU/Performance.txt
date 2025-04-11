@@ -1,0 +1,61 @@
+System Available Cores: 16
+
+Testing Single Thread (1 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 1 (Theoretically: 1)
+Executing time: 352677 Milliseconds
+
+Testing half Cores (8 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 8 (Theoretically: 8)
+Executing time: 50245 Milliseconds
+
+Testing equals to Cores (16 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 16 (Theoretically: 16)
+Executing time: 42641 Milliseconds
+
+Testing  Cores + 1 (17 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 17 (Theoretically: 17)
+Executing time: 43564 Milliseconds
+
+Testing  Cores * 1.5 (24 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 24 (Theoretically: 24)
+Executing time: 43576 Milliseconds
+
+Testing 2 times to Cores (32 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 32 (Theoretically: 32)
+Executing time: 43552 Milliseconds
+
+Testing 3 times to Cores (48 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 48 (Theoretically: 48)
+Executing time: 42961 Milliseconds
+
+Testing 4 times to Cores (64 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 64 (Theoretically: 64)
+Executing time: 43782 Milliseconds
+
+Testing 6 times to Cores (96 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 96 (Theoretically: 96)
+Executing time: 43316 Milliseconds
+
+Testing 8 times to Cores (128 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 128 (Theoretically: 128)
+Executing time: 43438 Milliseconds
+
+Testing 16 times to Cores (256 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 128 (Theoretically: 256)
+Executing time: 43186 Milliseconds
+
+Testing 32 times to Cores (512 Threads)
+Calculation results: 7514145961194880
+Max Parallel Tasks: 128 (Theoretically: 512)
+Executing time: 42847 Milliseconds

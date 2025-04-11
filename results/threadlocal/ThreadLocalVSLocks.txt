@@ -1,0 +1,4 @@
+===== Result Comparison =====
+ThreadLocal , value: 10000000, time: 85624817 ns
+Synchronized, value: 10000000, time: 826228730 ns
+CAS         , value: 10000000, time: 119345858 ns

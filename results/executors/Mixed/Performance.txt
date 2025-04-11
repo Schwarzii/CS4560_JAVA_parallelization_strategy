@@ -1,0 +1,34 @@
+Testing equal to Cores (16 threads)
+Starting test: equal to Cores
+Test Completed: equal to Cores
+Results: -4889588480
+Max Parallel Tasks: 16 (Theoretically: 16)
+Executing time: 5164 Milliseconds
+
+Testing 2 times to Cores (32 threads)
+Starting test: 2 times to Cores
+Test Completed: 2 times to Cores
+Results: -4889588480
+Max Parallel Tasks: 32 (Theoretically: 32)
+Executing time: 2585 Milliseconds
+
+Testing 4 times to Cores (64 threads)
+Starting test: 4 times to Cores
+Test Completed: 4 times to Cores
+Results: -4889588480
+Max Parallel Tasks: 64 (Theoretically: 64)
+Executing time: 1281 Milliseconds
+
+Testing 8 times to Cores (128 threads)
+Starting test: 8 times to Cores
+Test Completed: 8 times to Cores
+Results: -4889588480
+Max Parallel Tasks: 128 (Theoretically: 128)
+Executing time: 665 Milliseconds
+
+Testing 16 times to Cores (256 threads)
+Starting test: 16 times to Cores
+Test Completed: 16 times to Cores
+Results: -4889588480
+Max Parallel Tasks: 128 (Theoretically: 256)
+Executing time: 667 Milliseconds
