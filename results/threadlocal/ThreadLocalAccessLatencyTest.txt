@@ -1,0 +1,191 @@
+===Test Configuration===
+Thread count: 1
+Iterations: 50000
+Data type: Integer
+SET operation total time: 9050911ns, average: 181.01822ns/op
+GET operation total time: 7078877ns, average: 141.57754ns/op
+MIXED operation total time: 4249165ns, average: 84.9833ns/op
+
+===Test Configuration===
+Thread count: 1
+Iterations: 50000
+Data type: Large object (1MB)
+SET operation total time: 5591541187ns, average: 111830.82374ns/op
+GET operation total time: 2721697ns, average: 54.43394ns/op
+MIXED operation total time: 2677720585ns, average: 53554.4117ns/op
+
+===Test Configuration===
+Thread count: 1
+Iterations: 100000
+Data type: Integer
+SET operation total time: 1987534ns, average: 19.87534ns/op
+GET operation total time: 1997854ns, average: 19.97854ns/op
+MIXED operation total time: 2763626ns, average: 27.63626ns/op
+
+===Test Configuration===
+Thread count: 1
+Iterations: 100000
+Data type: Large object (1MB)
+SET operation total time: 11120542183ns, average: 111205.42183ns/op
+GET operation total time: 2801698ns, average: 28.01698ns/op
+MIXED operation total time: 5289302518ns, average: 52893.02518ns/op
+
+===Test Configuration===
+Thread count: 2
+Iterations: 50000
+Data type: Integer
+SET operation total time: 1628898ns, average: 16.28898ns/op
+GET operation total time: 1615885ns, average: 16.15885ns/op
+MIXED operation total time: 1726733ns, average: 17.26733ns/op
+
+===Test Configuration===
+Thread count: 2
+Iterations: 50000
+Data type: Large object (1MB)
+SET operation total time: 9072917710ns, average: 90729.1771ns/op
+GET operation total time: 1983587ns, average: 19.83587ns/op
+MIXED operation total time: 4658014411ns, average: 46580.14411ns/op
+
+===Test Configuration===
+Thread count: 2
+Iterations: 100000
+Data type: Integer
+SET operation total time: 3010421ns, average: 15.052105ns/op
+GET operation total time: 2137407ns, average: 10.687035ns/op
+MIXED operation total time: 2795726ns, average: 13.97863ns/op
+
+===Test Configuration===
+Thread count: 2
+Iterations: 100000
+Data type: Large object (1MB)
+SET operation total time: 18215852493ns, average: 91079.262465ns/op
+GET operation total time: 4864524ns, average: 24.32262ns/op
+MIXED operation total time: 9135978195ns, average: 45679.890975ns/op
+
+===Test Configuration===
+Thread count: 4
+Iterations: 50000
+Data type: Integer
+SET operation total time: 2311384ns, average: 11.55692ns/op
+GET operation total time: 1805922ns, average: 9.02961ns/op
+MIXED operation total time: 2100807ns, average: 10.504035ns/op
+
+===Test Configuration===
+Thread count: 4
+Iterations: 50000
+Data type: Large object (1MB)
+SET operation total time: 18700451378ns, average: 93502.25689ns/op
+GET operation total time: 2536769ns, average: 12.683845ns/op
+MIXED operation total time: 9466886261ns, average: 47334.431305ns/op
+
+===Test Configuration===
+Thread count: 4
+Iterations: 100000
+Data type: Integer
+SET operation total time: 3504261ns, average: 8.7606525ns/op
+GET operation total time: 2324428ns, average: 5.81107ns/op
+MIXED operation total time: 3306338ns, average: 8.265845ns/op
+
+===Test Configuration===
+Thread count: 4
+Iterations: 100000
+Data type: Large object (1MB)
+SET operation total time: 37614293261ns, average: 94035.7331525ns/op
+GET operation total time: 3742789ns, average: 9.3569725ns/op
+MIXED operation total time: 18835655474ns, average: 47089.138685ns/op
+
+===Test Configuration===
+Thread count: 8
+Iterations: 50000
+Data type: Integer
+SET operation total time: 3547921ns, average: 8.8698025ns/op
+GET operation total time: 2820662ns, average: 7.051655ns/op
+MIXED operation total time: 2831262ns, average: 7.078155ns/op
+
+===Test Configuration===
+Thread count: 8
+Iterations: 50000
+Data type: Large object (1MB)
+SET operation total time: 40900368913ns, average: 102250.9222825ns/op
+GET operation total time: 6408740ns, average: 16.02185ns/op
+MIXED operation total time: 20418426182ns, average: 51046.065455ns/op
+
+===Test Configuration===
+Thread count: 8
+Iterations: 100000
+Data type: Integer
+SET operation total time: 5721045ns, average: 7.15130625ns/op
+GET operation total time: 4123385ns, average: 5.15423125ns/op
+MIXED operation total time: 6785489ns, average: 8.48186125ns/op
+
+===Test Configuration===
+Thread count: 8
+Iterations: 100000
+Data type: Large object (1MB)
+SET operation total time: 81992609311ns, average: 102490.76163875ns/op
+GET operation total time: 3878233ns, average: 4.84779125ns/op
+MIXED operation total time: 40653294371ns, average: 50816.61796375ns/op
+
+===Test Configuration===
+Thread count: 16
+Iterations: 50000
+Data type: Integer
+SET operation total time: 4967645ns, average: 6.20955625ns/op
+GET operation total time: 5325638ns, average: 6.6570475ns/op
+MIXED operation total time: 6714243ns, average: 8.39280375ns/op
+
+===Test Configuration===
+Thread count: 16
+Iterations: 50000
+Data type: Large object (1MB)
+SET operation total time: 84663303321ns, average: 105829.12915125ns/op
+GET operation total time: 4612555ns, average: 5.76569375ns/op
+MIXED operation total time: 42037370148ns, average: 52546.712685ns/op
+
+===Test Configuration===
+Thread count: 16
+Iterations: 100000
+Data type: Integer
+SET operation total time: 9748294ns, average: 6.09268375ns/op
+GET operation total time: 5757550ns, average: 3.59846875ns/op
+MIXED operation total time: 9079044ns, average: 5.6744025ns/op
+
+===Test Configuration===
+Thread count: 16
+Iterations: 100000
+Data type: Large object (1MB)
+SET operation total time: 167608943763ns, average: 104755.589851875ns/op
+GET operation total time: 7753146ns, average: 4.84571625ns/op
+MIXED operation total time: 83290864185ns, average: 52056.790115625ns/op
+
+===Test Configuration===
+Thread count: 32
+Iterations: 50000
+Data type: Integer
+SET operation total time: 7604385ns, average: 4.752740625ns/op
+GET operation total time: 8620859ns, average: 5.388036875ns/op
+MIXED operation total time: 8095460ns, average: 5.0596625ns/op
+
+===Test Configuration===
+Thread count: 32
+Iterations: 50000
+Data type: Large object (1MB)
+SET operation total time: 167872534696ns, average: 104920.334185ns/op
+GET operation total time: 8187994ns, average: 5.11749625ns/op
+MIXED operation total time: 83530372393ns, average: 52206.482745625ns/op
+
+===Test Configuration===
+Thread count: 32
+Iterations: 100000
+Data type: Integer
+SET operation total time: 11852401ns, average: 3.7038753125ns/op
+GET operation total time: 12436911ns, average: 3.8865346875ns/op
+MIXED operation total time: 13072507ns, average: 4.0851584375ns/op
+
+===Test Configuration===
+Thread count: 32
+Iterations: 100000
+Data type: Large object (1MB)
+SET operation total time: 336134035728ns, average: 105041.886165ns/op
+GET operation total time: 11199041ns, average: 3.4997003125ns/op
+MIXED operation total time: 174042975356ns, average: 54388.42979875ns/op

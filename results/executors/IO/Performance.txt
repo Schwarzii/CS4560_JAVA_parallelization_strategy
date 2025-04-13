@@ -1,0 +1,29 @@
+Test Single Thread (1 Threads)
+Results: 57600
+Max Parallel Tasks: 1 (Theoretically: 1)
+Executing time: 642245 Milliseconds
+
+Test equal to Cores (16 Threads)
+Results: 57600
+Max Parallel Tasks: 16 (Theoretically: 16)
+Executing time: 40152 Milliseconds
+
+Test 2 times to Cores (32 Threads)
+Results: 57600
+Max Parallel Tasks: 32 (Theoretically: 32)
+Executing time: 20100 Milliseconds
+
+Test 4 times to Cores (64 Threads)
+Results: 57600
+Max Parallel Tasks: 64 (Theoretically: 64)
+Executing time: 10033 Milliseconds
+
+Test 8 times to Cores (128 Threads)
+Results: 57600
+Max Parallel Tasks: 128 (Theoretically: 128)
+Executing time: 5032 Milliseconds
+
+Test 16 times to Cores (256 Threads)
+Results: 57600
+Max Parallel Tasks: 256 (Theoretically: 256)
+Executing time: 2527 Milliseconds

@@ -1,0 +1,56 @@
+=== Main Thread's ThreadLocalMap ===
+ThreadLocalMap size: 16
+Non-empty Entry count: 8
+Location[1]:
+  ThreadLocal: jdk.internal.misc.TerminatingThreadLocal$1@548c4f57
+  Value Type: java.util.Collections$SetFromMap
+  Value Size: unknown
+Location[5]:
+  ThreadLocal: java.lang.ThreadLocal@1218025c
+  Value Type: java.lang.ref.SoftReference
+  Value Size: unknown
+Location[6]:
+  ThreadLocal: java.lang.ThreadLocal@816f27d
+  Value Type: java.lang.Integer
+  Value Size: unknown
+Location[8]:
+  ThreadLocal: sun.nio.fs.NativeBuffers$1@27716f4
+  Value Type: [Lsun.nio.fs.NativeBuffer;
+  Value Size: unknown
+Location[10]:
+  ThreadLocal: java.lang.StringCoding$1@87aac27
+  Value Type: java.lang.ref.SoftReference
+  Value Size: unknown
+Location[12]:
+  ThreadLocal: java.lang.ThreadLocal@3e3abc88
+  Value Type: null
+  Value Size: 0 bytes
+Location[13]:
+  ThreadLocal: java.lang.ThreadLocal@6ce253f1
+  Value Type: [B
+  Value Size: 1048576 bytes
+Location[15]:
+  ThreadLocal: java.lang.ThreadLocal@53d8d10a
+  Value Type: java.lang.String
+  Value Size: 18 chars
+
+=== Child Thread's ThreadLocalMap ===
+ThreadLocalMap size: 16
+Non-empty Entry count: 3
+Location[6]:
+  ThreadLocal: java.lang.ThreadLocal@816f27d
+  Value Type: java.lang.Integer
+  Value Size: unknown
+Location[13]:
+  ThreadLocal: java.lang.ThreadLocal@6ce253f1
+  Value Type: [B
+  Value Size: 524288 bytes
+Location[15]:
+  ThreadLocal: java.lang.ThreadLocal@53d8d10a
+  Value Type: java.lang.String
+  Value Size: 19 chars
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by nl.tudelft.concurrent.test.threadLocal.ThreadLocalMapAnalysis (file:/opt/charmot/Coding/tud/cc/CS4560_W_performance_analysis/ConcurrentTest/target/classes/) to field java.lang.Thread.threadLocals
+WARNING: Please consider reporting this to the maintainers of nl.tudelft.concurrent.test.threadLocal.ThreadLocalMapAnalysis
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
