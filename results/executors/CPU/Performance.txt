@@ -52,10 +52,10 @@ Executing time: 43438 Milliseconds
 
 Testing 16 times to Cores (256 Threads)
 Calculation results: 7514145961194880
-Max Parallel Tasks: 128 (Theoretically: 256)
+Max Parallel Tasks: 256 (Theoretically: 256)
 Executing time: 43186 Milliseconds
 
 Testing 32 times to Cores (512 Threads)
 Calculation results: 7514145961194880
-Max Parallel Tasks: 128 (Theoretically: 512)
+Max Parallel Tasks: 512 (Theoretically: 512)
 Executing time: 42847 Milliseconds
